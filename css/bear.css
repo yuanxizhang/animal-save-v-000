@@ -8,5 +8,10 @@ html {
   right: 0;
 }
 
-/* Write your solution here */
+/* stay 800px from the left side of the screen */
+@media only screen and (min-width: 1196px) {
+  #bear {
+    left: 800px;
+  }
+}
 
